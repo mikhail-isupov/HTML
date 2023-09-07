@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    width: 1440px;
+    height: 1024px;
+    /* Код из Figma у меня не работает */
+    /* background: url(<path-to-image>), lightgray -23.976px 0px / 103.33% 100% no-repeat, #FFF; */
+    background: url('../img/TravelTime.png') 100% no-repeat, #FFF;
+}    
+
+.main_menu{
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-top: 73px;
+    margin-left: 115px;
+    gap: 128px;
+    flex-shrink: 0;
+}
+
+.main_menu_item{
+    color: var(--White, #FFF);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rectangle2{
+    width: 72px;
+    height: 2px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 115px;
+}
+.travel_time{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 101px;
+    margin-left: 412px;
+}
+.lets_travel{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    margin-left: 326px;
+    margin-right: 365px;
+}
+.button{
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 2px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 605px;
+    margin-top: 369px;
+}
+.join{
+    display: flex;
+    width: 191px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #00B43D;
+    background: #00B43D;
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+}
